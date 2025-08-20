@@ -1,22 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <style>
-        h1 {
-            text-align: center;
-            margin: 20px;
-            margin-top: 10px;
-            margin-right: 15px;
-            margin-bottom: 20px;
-            margin-left: 25px ;
-        }
-        .n{}
-    </style>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senac Casa Aberta</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* cor de fundo do site */
+    }
 
-    <title>Senac Casa aberta</title>
+    
+    header {
+      background-color: #c57600; /* cor diferente do cabeçalho */
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 60px;
+    }
+    .p1 {
+      font-family: Montserrat, sans-serif;
+      font-size: 25px;
+      color: #000000; 
+      text-align: center;
+      margin: 20px;
+    }
+    .p2 {
+        font-family: Trebuchet MS;
+        font-size: 20px;
+        color: #333333;
+        text-align: justify;
+        margin: 10px;
+    }
+    .p3 {
+        font-family: Verdana;
+        font-size: 18px;
+        color: #3397f5;
+        text-align: justify;
+        margin: 10px;
+    }
+    .p4 {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #000000;
+        text-align: justify;
+        margin: 10px;
+   }
+
+    .imagem {
+    max-width: 300px; /* controla o tamanho da imagem */
+    height: auto;
+    border: 1px solid #ccc; /* opcional, só para destacar */
+    float: right; /* faz a imagem ir para a direita */
+    margin-left: 10px;  /* dá um espaço entre o texto e a imagem */
+}   
+ 
+.logo {
+      height: 50px; 
+    }
+  </style>
 </head>
 <body>
-    <h1 class="n">Casa Aberta</h1>
+
+  <header>
+    <img src="images/senac.png" alt="Logo do site" class="logo">
+  </header>
+
+  <main>
+    <p class="p1">Exploração de Petróleo na Margem Equatorial</p>
+    <p class="p2">MARGEM EQUATORIAL</p>
+    <p class="p3">O que é?</p> 
+    <p class="p4">A Margem Equatorial é a mais nova fronteira marítima de exploração depetróleo e gás do Brasil. Esta região brasileira,<br> que está sendo chamada de o"novo pré-sal", pode ter grande potencial para novas descobertas, como os casos de sucesso<br>exploratório alcançados nas bacias sedimentares na Guiana e Suriname. </p>
+  </main>
+    <img src="images/mapa.png" alt="Mapa da Margem Equatorial" class="imagem">
+
 </body>
 </html>

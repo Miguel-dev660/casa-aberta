@@ -7,12 +7,31 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-
   <style>
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    .botao{
+      background-color: transparent;
+      border: 2px solid #000;
+      color: #000;
+      text-align: center;
+      margin-top: 100px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+      border-radius: 4px;
+      font-family: sans-serif;
+    }
+    .botao:hover{
+      margin-top: 100px;
+      background-color: #000;
+      color: #fff;
     }
 
     body {
@@ -32,7 +51,7 @@
     }
 
     .logo {
-      height: 50px;
+      height: 70px;
     }
 
     main {
@@ -54,6 +73,7 @@
       font-weight: bold;
       color: #c57600;
       margin-bottom: 10px;
+      margin-top: 30px;
     }
 
     .VULGO {
@@ -61,13 +81,20 @@
       font-size: 22px;
       color: #0066cc;
       font-weight: bold;
-      margin-top: 25px;
+      margin-top: 15px;
     }
-
+    .pcenter{
+      font-size: 50px;
+      font-weight: bold;
+      color: #c57600;
+      margin-bottom: 10px;
+      margin-top: 30px;
+      text-align: center;}
     p {
       margin-top: 10px;
       font-size: 18px;
       text-align: justify;
+      margin-bottom: 50px;
     }
 
     .imagem {
@@ -83,18 +110,6 @@
         float: none;
         display: block;
         margin: 20px auto;
-      }
-
-      .p1 {
-        font-size: 28px;
-      }
-
-      .p2 {
-        font-size: 24px;
-      }
-
-      p {
-        font-size: 16px;
       }
     }
   </style>
@@ -119,7 +134,45 @@
 
     <p class="VULGO">Por que a exploração não está continuada?</p>
     <p>A exploração na foz do Amazonas está suspensa por motivos ambientais, com o IBAMA exigindo mais estudos (AAAS) antes de autorização. A ANP disponibiliza dados robustos via o BDEP e é a agência reguladora responsável por licitações e fiscalização. A região terrestre da Amazônia, especialmente Urucu, já tem exploração consolidada e produtiva.</p>
+
+    <p class="p2">ARGUMENTOS A FAVOR DA EXPLORAÇÃO</p>
+    <p>1. Segurança e soberania energética: novas reservas ajudariam a manter a produção nacional e reduzir importações; indústria e governo veem a Margem como “novo pré-sal” em potencial. <br>  
+      2. Receita e desenvolvimento regional: royalties, empregos e investimentos em infraestrutura em estados historicamente subinvestidos (Amapá, Pará, Maranhão etc.).  </p>
+    <p class="p2">ARGUMENTOS CONTRA A EXPLORAÇÃO</p>
+    <p>1. Risco socioambiental elevado: correntes complexas na Foz do Amazonas podem ampliar a área atingida e dificultar resposta a vazamentos; presença de manguezais, áreas de pesca artesanal e comunidades tradicionais. <br> 
+      2. Recifes/“Corais” da Amazônia (GARS): literatura científica documenta um sistema recifal mesofótico amplo e biologicamente rico; críticos temem impactos diretos/indiretos de óleo e de rotina exploratória.  </p>
+      <p class="p2">IMPACTOS AMBIENTAIS</p>
+      <p>Possibilidade de vazamentos de óleo que devastariam ecossistemas marinhos frágeis, como corais e manguezais, a emissão de gases de efeito estufa e poluentes atmosféricos, e o impacto direto sobre a rica biodiversidade da região, com ruídos e infraestrutura que afugentam a fauna marinha. </p>
+      <p class="p2">CONCLUSÃO</p>
+      <p class="p">A exploração de petróleo na Margem Equatorial brasileira representa uma oportunidade estratégica para o desenvolvimento econômico, mas também impõe riscos significativos a ecossistemas sensíveis.
+        O avanço desse projeto dependerá de governança transparente e de estudos ambientais rigorosos, de forma a compatibilizar geração de riqueza com a responsabilidade socioambiental e climática do país.
+         </p>
+      <p class="pcenter">Vídeos</p>
+      <center>
+      <a class="botao" href="https://www.youtube.com/watch?v=kmFCIifuZUI&pp=ygUhcGV0cm9sZW8gbWFyZ2VtIGVxdWF0b3JpYWwgc2FjYW5p" target="_blank">
+        Sérgio Sacani
+      </a>
+      <a class="botao" href="https://www.youtube.com/watch?v=HcMoKv03N48&pp=ygUfcGV0cm9sZW8gbWFyZ2VtIGVxdWF0b3JpYWwgbHVsYQ%3D%3D" target="_blank">
+        Presidente do Brasil
+      </a>
+      <a class="botao" href="https://www.youtube.com/watch?v=Ct06fly8M4A&pp=ygUfcGV0cm9sZW8gbWFyZ2VtIGVxdWF0b3JpYWwgbHVsYQ%3D%3D" target="_blank">
+        Petrobras
+      </a>
+    </center>
   </main>
+  <footer style="background-color: #333; color: white; padding: 10px 0; text-align: center;">
+    <div style="max-width: 1000px; margin: auto;">
+      <h3>Equipe do Projeto</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li>Lucas Mazzeo – Desenvolvedor júnior</li>
+        <li>Miguel Hironimuz– Desenvolvedor Sênior</li>
+        <li>Pedro Martins – Pesquisador Marinho</li>
+        <li>Pedro Leite – Explorador Petrolífero</li>
+      </ul>
+      <p style="margin-top: 15px; text-align: center;">&copy; 2025 Projeto Casa aberta. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  
 
 </body>
 </html>
